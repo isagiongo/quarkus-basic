@@ -12,3 +12,4 @@ insert into municipio(id, nome, idUF) values(3, 'São Paulo', 2);
 insert into municipio(id, nome, idUF) values(4, 'João Pessoa', 3);
 insert into municipio(id, nome, idUF) values(5, 'João Pessoa', -2);
 
+

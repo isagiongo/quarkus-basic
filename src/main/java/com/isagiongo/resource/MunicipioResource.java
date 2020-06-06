@@ -1,8 +1,8 @@
 package com.isagiongo.resource;
 
-import models.Municipio;
-import models.UnidadeFederativa;
-import services.LocalidadeService;
+import com.isagiongo.models.Municipio;
+import com.isagiongo.models.UnidadeFederativa;
+import com.isagiongo.services.LocalidadeService;
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;

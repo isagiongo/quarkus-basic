@@ -1,7 +1,7 @@
-package services;
+package com.isagiongo.services;
 
-import models.Municipio;
-import models.UnidadeFederativa;
+import com.isagiongo.models.Municipio;
+import com.isagiongo.models.UnidadeFederativa;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import javax.enterprise.context.ApplicationScoped;

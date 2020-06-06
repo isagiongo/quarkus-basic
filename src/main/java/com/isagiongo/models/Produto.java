@@ -1,23 +1,21 @@
-package models;
+package com.isagiongo.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Municipio {
+public class Produto {
 
     @Id
-    private Integer id;
+    private Long id;
 
     private String nome;
 
-    private Integer idUF;
-
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -27,13 +25,5 @@ public class Municipio {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public Integer getIdUF() {
-        return idUF;
-    }
-
-    public void setIdUF(Integer idUF) {
-        this.idUF = idUF;
     }
 }

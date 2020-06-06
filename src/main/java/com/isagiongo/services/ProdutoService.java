@@ -1,6 +1,6 @@
-package services;
+package com.isagiongo.services;
 
-import models.Produto;
+import com.isagiongo.models.Produto;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

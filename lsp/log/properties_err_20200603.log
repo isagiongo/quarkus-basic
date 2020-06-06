@@ -1,13 +1,13 @@
 jun 03, 2020 8:08:21 AM com.redhat.quarkus.ls.QuarkusLanguageServer initialize
 INFO: Initializing Quarkus server 0.0.4-20191120-1547 with /home/ilegra-477/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/201.6668.121/jbr
-jun 03, 2020 8:15:26 AM com.redhat.quarkus.services.QuarkusHover doHover
+jun 03, 2020 8:15:26 AM com.redhat.quarkus.com.isagiongo.services.QuarkusHover doHover
 SEVERE: In QuarkusHover, position error
 com.redhat.quarkus.ls.commons.BadLocationException: The character value, {49} of the line9}, is out of bounds.
 	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
 	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
 	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
-	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
-	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.com.isagiongo.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.com.isagiongo.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
 	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
 	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
 	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
