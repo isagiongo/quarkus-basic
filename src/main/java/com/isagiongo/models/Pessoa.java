@@ -1,7 +1,5 @@
 package com.isagiongo.models;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntity;
-
 import javax.persistence.*;
 
 @Entity
@@ -16,7 +14,7 @@ public class Pessoa {
     private Tipo tipo;
 
     public enum Tipo {
-        PF, PJ;
+        PF, PJ
     }
 
     public String getNome() {
